@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\ObatDBController;
+use App\Http\Controllers\KaryawanDBController;
 
 // konsepnya kayak import java.io;
 
@@ -104,3 +105,11 @@ Route::post('/obat/update',[ObatDBController::class, 'update']);
 Route::get('/obat/hapus/{id}', [ObatDBController::class, 'hapus']);
 
 Route::get('/obat/cari', [ObatDBController::class, 'cari']);
+
+//route karyawanDB
+Route::get('/karyawan', [KaryawanDBController::class, 'index']);
+Route::get('/karyawan/tambah', [KaryawanDBController::class, 'tambah']);
+Route::post('/karyawan/store', [KaryawanDBController::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
+
+
