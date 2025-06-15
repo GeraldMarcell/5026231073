@@ -7,6 +7,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\ObatDBController;
 use App\Http\Controllers\KaryawanDBController;
+use App\Http\Controllers\PageCounterDBController;
 
 // konsepnya kayak import java.io;
 
@@ -112,4 +113,6 @@ Route::get('/karyawan/tambah', [KaryawanDBController::class, 'tambah']);
 Route::post('/karyawan/store', [KaryawanDBController::class, 'store']); //jika form dikirim, route ini akan dijalankan
 Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
 
+//route PageCounterDB
+Route::get('/latihan1', [PageCounterDBController::class, 'index']);
 

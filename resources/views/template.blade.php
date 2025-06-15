@@ -88,13 +88,13 @@
                     <a class="nav-link" href="#"><i class="fas fa-graduation-cap mr-2"></i>EAS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-book mr-2"></i>Latihan 1</a>
+                    <a class="nav-link" href="/latihan1"><i class="fas fa-book mr-2"></i>Latihan 1</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/karyawan"><i class="fas fa-book mr-2"></i>Latihan 2</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-book mr-2"></i>Latihan 3</a>
+                    <a class="nav-link" href="/karyawan"><i class="fas fa-book mr-2"></i>Latihan 3</a>
                 </li>
             </ul>
         </div>
