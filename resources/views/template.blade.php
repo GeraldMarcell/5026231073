@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <style>
@@ -85,7 +86,7 @@
                     <a class="nav-link" href="/obat"><i class="fas fa-tasks mr-2"></i>Tugas CRUD</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-graduation-cap mr-2"></i>EAS</a>
+                    <a class="nav-link" href="/eas"><i class="fas fa-graduation-cap mr-2"></i>EAS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/latihan1"><i class="fas fa-book mr-2"></i>Latihan 1</a>

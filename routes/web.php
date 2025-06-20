@@ -8,6 +8,7 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\ObatDBController;
 use App\Http\Controllers\KaryawanDBController;
 use App\Http\Controllers\PageCounterDBController;
+use App\Http\Controllers\NewKaryawanDBController;
 
 // konsepnya kayak import java.io;
 
@@ -116,3 +117,8 @@ Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
 //route PageCounterDB
 Route::get('/latihan1', [PageCounterDBController::class, 'index']);
 
+//route newkaryawanDB
+Route::get('/eas', [NewKaryawanDBController::class, 'index']);
+Route::get('/eas/tambah', [NewKaryawanDBController::class, 'tambah']);
+Route::post('/eas/store', [NewKaryawanDBController::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::get('/eas/hapus/{id}', [NewKaryawanDBController::class, 'hapus']);
